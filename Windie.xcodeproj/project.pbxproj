@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA76D5024D8FA9900C73234 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA76D4F24D8FA9900C73234 /* Weather.swift */; };
 		5D37CF6C24D8B98F000C5DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37CF6B24D8B98F000C5DA2 /* AppDelegate.swift */; };
 		5D37CF6E24D8B98F000C5DA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37CF6D24D8B98F000C5DA2 /* SceneDelegate.swift */; };
 		5D37CF7024D8B98F000C5DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D37CF6F24D8B98F000C5DA2 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AA76D4F24D8FA9900C73234 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		5D37CF6824D8B98F000C5DA2 /* Windie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Windie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D37CF6B24D8B98F000C5DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D37CF6D24D8B98F000C5DA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA76D4E24D8FA8A00C73234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AA76D4F24D8FA9900C73234 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5D37CF5F24D8B98F000C5DA2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		5D37CF6A24D8B98F000C5DA2 /* Windie */ = {
 			isa = PBXGroup;
 			children = (
+				1AA76D4E24D8FA8A00C73234 /* Model */,
 				5D37CF6B24D8B98F000C5DA2 /* AppDelegate.swift */,
 				5D37CF6D24D8B98F000C5DA2 /* SceneDelegate.swift */,
 				5D37CF6F24D8B98F000C5DA2 /* ContentView.swift */,
@@ -146,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA76D5024D8FA9900C73234 /* Weather.swift in Sources */,
 				5D37CF6C24D8B98F000C5DA2 /* AppDelegate.swift in Sources */,
 				5D37CF6E24D8B98F000C5DA2 /* SceneDelegate.swift in Sources */,
 				5D37CF7024D8B98F000C5DA2 /* ContentView.swift in Sources */,
@@ -289,6 +301,7 @@
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Windie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Windie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
